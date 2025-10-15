@@ -34,3 +34,18 @@ class PostgresDB(DB):
 
     def get_connection_string(self) -> str:
         return f"postgresql+psycopg2://{self.user}:{self.password}@{self.host}/{self.database}"
+    
+
+class AsyncSQLiteDB(SQLiteDB):
+    def get_connection_string(self) -> str:
+        return f"sqlite+aiosqlite:///{self.name}"
+
+
+class AsyncMysqlDB(MysqlDB):
+    def get_connection_string(self) -> str:
+        return f"mysql+aiomysql://{self.user}:{self.password}@{self.host}/{self.database}"
+
+
+class AsyncPostgresDB(PostgresDB):
+    def get_connection_string(self) -> str:
+        return f"postgresql+asyncpg://{self.user}:{self.password}@{self.host}/{self.database}"

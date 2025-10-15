@@ -186,8 +186,8 @@ You are free to use, modify, and distribute it for personal or commercial purpos
 
 ## 🌍 Project Links
 
--   **Website:** [https://apexkv.org](https://apexkv.org)
--   **Source Code:** [https://github.com/ApexKV/apexorm](https://github.com/ApexKV/apexorm)
+-   **Website:** [https://apexkv.org/apexorm](https://apexkv.org/apexorm)
+-   **Source Code:** [https://github.com/apexkv/apexorm](https://github.com/apexkv/apexorm)
 -   **PyPI:** [https://pypi.org/project/apexorm](https://pypi.org/project/apexorm)
 
 ---
